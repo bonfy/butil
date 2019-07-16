@@ -15,6 +15,7 @@ import io
 import os
 import sys
 from shutil import rmtree
+from butil.__verison__ import __version__
 
 from setuptools import setup, Command
 
@@ -24,7 +25,7 @@ DESCRIPTION = 'BONFY python util'
 URL = 'https://github.com/bonfy/butil'
 EMAIL = 'foreverbonfy@163.com'
 AUTHOR = 'bonfy'
-VERSION = '0.0.1'
+VERSION = __version__
 
 # What packages are required for this module to be executed?
 REQUIRED = []
