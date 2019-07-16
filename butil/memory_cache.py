@@ -1,10 +1,10 @@
 # coding: utf-8
 
 
-class Memory(dict):
-    """ Memory use dict
+class MemoryCache:
+    """ MemoryCache use dict
 
-    >>> m = Memory()
+    >>> m = MemoryCache()
     >>> m.add('a', 1)
     >>> m.keys
     dict_keys(['a'])
